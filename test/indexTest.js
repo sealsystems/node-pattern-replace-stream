@@ -2,10 +2,10 @@
 
 const assert = require('assertthat');
 
-const index = require('../lib');
+const PatternReplaceStream = require('../lib');
 
-suite('index', () => {
+suite('PatternReplaceStream', () => {
   test('is an object.', async () => {
-    assert.that(index).is.ofType('object');
+    assert.that(PatternReplaceStream).is.ofType('object');
   });
 });
