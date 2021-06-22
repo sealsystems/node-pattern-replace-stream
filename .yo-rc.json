@@ -1,0 +1,6 @@
+{
+  "@sealsystems/generator-seal-node": {
+    "name": "node-pattern-replace-stream",
+    "description": ""
+  }
+}
