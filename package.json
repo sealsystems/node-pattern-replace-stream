@@ -1,0 +1,40 @@
+{
+  "name": "@sealsystems/pattern-replace-stream",
+  "version": "0.0.0",
+  "description": "Transform a stream using a replace pattern",
+  "author": {
+    "name": "SEAL Systems AG",
+    "email": "support@sealsystems.de",
+    "url": "http://www.sealsystems.de"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sealsystems/pattern-replace-stream"
+  },
+  "main": "lib",
+  "scripts": {
+    "bot": "bot",
+    "licenses": "license-checker --production --csv",
+    "lint": "lint",
+    "lint:fix": "lint-fix",
+    "release": "release",
+    "test": "test-run",
+    "test:coverage": "test-coverage",
+    "test:coverage:check": "test-coverage-check",
+    "test:report": "test-report"
+  },
+  "release": {
+    "extends": "@sealsystems/semantic-release/node-module"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@sealsystems/eslint-config-es": "3.6.7",
+    "@sealsystems/mocha": "4.1.10",
+    "@sealsystems/semantic-release": "4.3.4"
+  }
+}
