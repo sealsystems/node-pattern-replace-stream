@@ -31,7 +31,6 @@
     "access": "public",
     "registry": "https://npm.pkg.github.com"
   },
-  "dependencies": {},
   "devDependencies": {
     "@sealsystems/eslint-config-es": "3.6.7",
     "@sealsystems/mocha": "4.1.10",
