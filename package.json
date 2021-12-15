@@ -33,5 +33,6 @@
   "devDependencies": {
     "@sealsystems/eslint-config-es": "3.7.0",
     "@sealsystems/mocha": "4.1.11"
-  }
+  },
+  "dependencies": {}
 }
